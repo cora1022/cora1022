@@ -55,10 +55,11 @@ Raspberry Pi 기반 로봇카에서 명령 처리와 동작 제어 구조를 실
 - 데이터베이스 테이블 설계와 트랜잭션 기본기
 - 백엔드 프로젝트의 계층 구조와 예외 처리
 - Docker 기반 실행 환경 정리
-- 알고리즘 문제 풀이: Baekjoon Gold
+- 알고리즘 문제 풀이: old Baekjoon Gold
 
 ## GitHub 활동 / 연락처
 
 아직은 학생 개발자로서 작은 프로젝트를 만들고 고쳐가며 배우는 단계입니다. 프로젝트를 진행할 때 README와 실행 방법을 정리하고, 나중에 다시 봐도 이해할 수 있는 구조를 만드는 것을 목표로 하고 있습니다.
 
 - GitHub: [github.com/cora1022](https://github.com/cora1022)
+- gmail: 7ipvpp@gmail.com

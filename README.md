@@ -1,14 +1,19 @@
-# 안녕하세요, 백엔드 개발자를 목표로 공부하고 있습니다.
+# cora1022
 
-컴퓨터공학과 3학년 1학기 재학 중이며, 직접 프로젝트를 만들면서 백엔드 구조와 데이터 흐름을 이해하는 데 관심이 많습니다. 아직 배우는 중이지만, 기능을 만드는 것에서 끝내지 않고 실행 방법, 배포 흐름, 문서화까지 같이 정리하려고 노력하고 있습니다.
+백엔드 구조, 자동화 흐름, 데이터 처리 과정을 직접 만들고 기록하며 공부하고 있습니다.
 
-## 현재 관심 분야
+- Portfolio: [cora1022.github.io](https://cora1022.github.io/)
+- 개발기록: [cora1022.github.io/blog](https://cora1022.github.io/blog/)
+- GitHub: [github.com/cora1022](https://github.com/cora1022)
 
-- Spring Boot와 FastAPI를 활용한 백엔드 API 개발
-- MySQL 기반 데이터 모델링과 기본적인 쿼리 설계
-- Docker를 이용한 개발 환경 정리
-- 이미지 처리와 벡터 검색을 활용한 서비스 구조
-- Raspberry Pi 같은 하드웨어와 소프트웨어를 연결하는 실험
+## 관심 분야
+
+- Spring Boot와 FastAPI 기반 API 설계
+- MySQL을 활용한 데이터 모델링
+- Docker와 GitHub Pages를 활용한 배포 흐름
+- OpenCV, OpenCLIP, Qdrant를 이용한 이미지 검색 구조
+- Raspberry Pi와 Python을 이용한 로봇 제어 실험
+- 로그를 읽고 문제를 재현하며 개선하는 개발 방식
 
 ## 기술 스택
 
@@ -28,10 +33,10 @@
 - Docker
 - Git, GitHub
 
-**이외 경험**
+**Experience**
 
 - OpenCV
-- FashionCLIP
+- OpenCLIP
 - Qdrant
 - Raspberry Pi
 
@@ -39,27 +44,32 @@
 
 ### OpenCV 기반 패션 이미지 유사도 검색
 
-OpenCV와 YOLO로 이미지에서 의류 영역을 전처리하고, FashionCLIP으로 임베딩을 만든 뒤 Qdrant에서 유사 이미지를 검색하는 프로젝트입니다. FastAPI 백엔드와 React 프론트엔드를 함께 구성하면서 API, 데이터 흐름, 검색 파이프라인을 정리했습니다.
+OpenCV와 YOLO로 이미지에서 의류 영역을 전처리하고, OpenCLIP 임베딩과 Qdrant 벡터 검색으로 유사한 패션 이미지를 찾는 프로젝트입니다.
 
-### Urban Waste Statistics Simulation
+### ROBOT
 
-실제 통계와 유사한 도시 폐기물 데이터를 바탕으로 도시 유형별 폐기물 발생량을 시뮬레이션한 웹 프로젝트입니다. 단순 화면 구현보다 계산 기준, 데이터 구조, 결과 표현을 어떻게 정리할지에 집중했습니다.
+Raspberry Pi 기반 로봇을 자연어 명령으로 제어하는 Python 프로젝트입니다. 명령 해석, 센서 입력, 이동 동작을 나누어 실제 로봇 제어 흐름을 실험했습니다.
 
-### Raspberry Pi 로봇카 프로젝트
+### 도시 폐기물 통계 시뮬레이션
 
-Raspberry Pi 기반 로봇카에서 명령 처리와 동작 제어 구조를 실험했습니다. Python 코드로 로봇 동작을 나누고, 하드웨어 연결과 소프트웨어 구조를 함께 이해하는 데 중점을 두었습니다.
+건물 유형과 인구 배율을 조정하면서 도시 폐기물 데이터를 합성하고 CSV로 내보낼 수 있는 정적 웹 시뮬레이션입니다.
 
-## 공부 중인 것
+### Smart Quiz
 
-- Spring Boot로 REST API를 안정적으로 설계하는 방법
-- 데이터베이스 테이블 설계와 트랜잭션 기본기
-- 백엔드 프로젝트의 계층 구조와 예외 처리
-- Docker 기반 실행 환경 정리
-- 알고리즘 문제 풀이: old Baekjoon Gold
+시험 기간에 문제를 빠르게 풀고 복습하기 위한 브라우저 기반 퀴즈 도구입니다.
 
-## GitHub 활동 / 연락처
+## 개발기록
 
-아직은 학생 개발자로서 작은 프로젝트를 만들고 고쳐가며 배우는 단계입니다. 프로젝트를 진행할 때 README와 실행 방법을 정리하고, 나중에 다시 봐도 이해할 수 있는 구조를 만드는 것을 목표로 하고 있습니다.
+개발 과정에서 남긴 생각과 시행착오는 별도 개발기록 페이지에 정리하고 있습니다.
 
-- GitHub: [github.com/cora1022](https://github.com/cora1022)
-- gmail: 7ipvpp@gmail.com
+- [NYPC 참가 타임라인](https://cora1022.github.io/blog/posts/nypc-participation-timeline.html)
+- [AI 기반 질환 맞춤형 식단 영양분석 서비스](https://cora1022.github.io/blog/posts/medical-hack-diet-analysis.html)
+
+## 현재 방향
+
+작은 프로젝트라도 실행 흐름, 데이터 구조, 배포 방식, 기록을 함께 남기는 것을 중요하게 생각합니다. 기능을 만드는 데서 끝내지 않고, 나중에 다시 읽어도 이해할 수 있는 구조로 정리하는 개발자가 되는 것이 목표입니다.
+
+## 연락처
+
+- Gmail: 7fvnjg5@gmail.com
+- Discord: cora1022

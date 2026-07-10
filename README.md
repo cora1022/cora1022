@@ -2,9 +2,8 @@
 
 백엔드 구조, 자동화 흐름, 데이터 처리 과정을 직접 만들고 기록하며 공부하고 있습니다.
 
-- Portfolio: [cora1022.github.io](https://cora1022.github.io/)
+- 메인페이지: [cora1022.github.io](https://cora1022.github.io/)
 - 개발기록: [cora1022.github.io/blog](https://cora1022.github.io/blog/)
-- GitHub: [github.com/cora1022](https://github.com/cora1022)
 
 ## 관심 분야
 

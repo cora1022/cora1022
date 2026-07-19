@@ -3,7 +3,7 @@
 백엔드 구조, 자동화 흐름, 데이터 처리 과정을 직접 만들고 기록하며 공부하고 있습니다.
 
 - 메인페이지: [cora1022.com](https://cora1022.com/)
-- 프로필 : [cora1022/profile.com](https://cora1022.com/forfile)
+- 프로필 : [cora1022.com/profile](https://cora1022.com/profile/)
 
 ## 관심 분야
 

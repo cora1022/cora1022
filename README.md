@@ -22,31 +22,6 @@
 - 알고리즘 자료구조 PS 문제 풀이 [![solved.ac Gold V](https://mazassumnida.wtf/api/mini/generate_badge?boj=cora1022)](https://solved.ac/profile/cora1022)
 - Raspberry Pi와 Python을 이용한 로봇 제어 실험
 
-## 기술 스택
-
-**Backend**
-
-- Java, Spring Boot
-- Python, FastAPI
-- MySQL
-
-**Frontend**
-
-- JavaScript, TypeScript
-- React
-
-**Tools**
-
-- Docker
-- Git, GitHub
-
-**Experience**
-
-- OpenCV
-- OpenCLIP
-- Qdrant
-- Raspberry Pi
-
 ## 대표 프로젝트
 
 ### OpenCV 기반 패션 이미지 유사도 검색
@@ -72,6 +47,31 @@ Raspberry Pi 기반 로봇을 자연어 명령으로 제어하는 Python 프로�
 시험 기간에 문제를 빠르게 풀고 복습하기 위한 브라우저 기반 퀴즈 도구입니다.
 
 - [cora1022/exam](https://github.com/cora1022/exam)
+
+## 기술 스택
+
+**Backend**
+
+- Java, Spring Boot
+- Python, FastAPI
+- MySQL
+
+**Frontend**
+
+- JavaScript, TypeScript
+- React
+
+**Tools**
+
+- Docker
+- Git, GitHub
+
+**Experience**
+
+- OpenCV
+- OpenCLIP
+- Qdrant
+- Raspberry Pi
 
 ## 경험과 기록
 

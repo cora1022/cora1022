@@ -55,11 +55,11 @@ OpenCV와 YOLO로 이미지에서 의류 영역을 전처리하고, OpenCLIP 임
 
 - [cora1022/OpenCV-pj-Fashion-Model](https://github.com/cora1022/OpenCV-pj-Fashion-Model)
 
-### ROBOT
+### Gemini Raspberry Pi Robot
 
 Raspberry Pi 기반 로봇을 자연어 명령으로 제어하는 Python 프로젝트입니다. 명령 해석, 센서 입력, 이동 동작을 나누어 실제 로봇 제어 흐름을 실험했습니다.
 
-- [cora1022/robot](https://github.com/cora1022/robot)
+- [cora1022/gemini-raspberry-pi-robot](https://github.com/cora1022/gemini-raspberry-pi-robot)
 
 ### 도시 폐기물 통계 시뮬레이션
 

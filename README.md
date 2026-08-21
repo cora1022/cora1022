@@ -33,16 +33,16 @@
   <br clear="all">
   <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model"><img src="./assets/featured-projects/project-opencv.svg" width="53%" align="left" alt="OpenCV 기반 패션 이미지 유사도 검색"></a>
 <!-- RECENT_COMMIT_1_START -->
-  <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model/commit/86be3c1a9bdd42c38c7c1f89efd4f117ae42be0c"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></a>
+  <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model/commit/2a6e5dc789f4309c318fb2f7c7c64c4b6dbfee72"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></a>
 <!-- RECENT_COMMIT_1_END -->
 <!-- RECENT_COMMIT_2_START -->
-  <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model/commit/f89e0d929b9a3462e6eb447e84660a2277cc1977"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></a>
+  <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model/commit/86be3c1a9bdd42c38c7c1f89efd4f117ae42be0c"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></a>
 <!-- RECENT_COMMIT_2_END -->
   <br clear="left">
   <a href="https://github.com/cora1022/gemini-raspberry-pi-robot"><img src="./assets/featured-projects/project-robot.svg" width="25%" align="left" alt="Gemini Raspberry Pi Robot"></a>
   <a href="https://github.com/cora1022/Urban-Waste-Statistics-Simulation"><img src="./assets/featured-projects/project-waste.svg" width="25%" align="left" alt="도시 폐기물 통계 시뮬레이션"></a>
 <!-- RECENT_COMMIT_3_START -->
-  <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model/commit/a576d89e175aab49bedfd1e0d1a420537d6b5c5a"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></a>
+  <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model/commit/f89e0d929b9a3462e6eb447e84660a2277cc1977"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></a>
 <!-- RECENT_COMMIT_3_END -->
   <br clear="all">
 </div>

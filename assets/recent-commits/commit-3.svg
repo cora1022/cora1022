@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" role="img" aria-labelledby="title desc">
   <title id="title">OpenCV-pj-Fashion-Model 최근 공개 커밋</title>
-  <desc id="desc">FEAT, OpenCV-pj-Fashion-Model, 기존 카탈로그 데이터 이관 도구 추가, a576d89, CSS, 8시간 전</desc>
+  <desc id="desc">FEAT, OpenCV-pj-Fashion-Model, 회원가입과 검색 화면 연결, f89e0d9, CSS, 어제</desc>
   <path d="M13 7 C76 3 145 10 211 6 C280 2 350 11 407 5 Q416 6 413 17 C416 54 411 94 415 133 Q413 143 403 142 C333 146 267 139 199 143 C130 146 64 140 13 144 Q5 142 8 133 C5 94 10 54 6 17 Q7 9 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M13 14 C10 45 14 95 12 134" fill="none" stroke="#FF6685" stroke-width="3" stroke-linecap="round" opacity=".85"/>
 
@@ -16,12 +16,12 @@
       <path d="M4 22 C9 19 14 22 20 19" fill="none" stroke="#24292F" stroke-width="1.2" stroke-linecap="round"/>
     </g>
 
-    <text x="87" y="44" font-size="17" font-weight="780">기존 카탈로그 데이터 이관 도…</text>
+    <text x="87" y="44" font-size="17" font-weight="780">회원가입과 검색 화면 연결</text>
     <path d="M88 53 C132 49 176 55 222 51 C246 49 267 53 288 51" fill="none" stroke="#FF6685" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
     <text x="87" y="78" font-size="13" font-weight="680" fill="#24292F">OpenCV-pj-Fashion-Model</text>
     <circle cx="91" cy="105" r="3" fill="#FF6685"/>
-    <text x="101" y="110" font-size="12.5" font-weight="620" fill="#66707A">a576d89 · CSS</text>
-    <text x="393" y="110" text-anchor="end" font-size="12.5" font-weight="650" fill="#66707A">8시간 전</text>
+    <text x="101" y="110" font-size="12.5" font-weight="620" fill="#66707A">f89e0d9 · CSS</text>
+    <text x="393" y="110" text-anchor="end" font-size="12.5" font-weight="650" fill="#66707A">어제</text>
     <path d="M88 126 C164 122 243 129 319 125" fill="none" stroke="#D8DEE4" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 6"/>
     <path d="M340 135 C356 130 369 139 384 133 C394 129 401 131 407 127" fill="none" stroke="#FF6685" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
   </g>

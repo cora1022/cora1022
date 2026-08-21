@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 84" role="img" aria-labelledby="title desc">
+  <title id="title">기술 스택</title>
+  <desc id="desc">손그림 코드 메모와 민트 밑줄로 꾸민 기술 스택 섹션 제목</desc>
+  <rect width="720" height="84" fill="#FFFFFF"/>
+  <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
+    <path d="M9 14 C18 11 37 13 47 10 L45 49 C34 47 20 51 10 48 C12 36 8 25 9 14Z" fill="#FFF3B8" stroke="#24292F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 22 L17 29 L24 36 M33 22 L40 29 L33 36" fill="none" stroke="#24292F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M31 18 C29 25 27 34 26 40" fill="none" stroke="#8B6CF6" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M13 7 L16 11 M43 4 L41 10 M52 18 L47 20" fill="none" stroke="#42C7C9" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="61" y="47" font-size="28" font-weight="800" fill="#24292F">기술 스택</text>
+    <path d="M63 59 C102 55 143 62 184 57 C204 55 220 59 237 57" fill="none" stroke="#42C7C9" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 84" role="img" aria-labelledby="title desc">
+  <title id="title">경험과 기록</title>
+  <desc id="desc">손그림 노트와 보라 밑줄로 꾸민 경험과 기록 섹션 제목</desc>
+  <rect width="720" height="84" fill="#FFFFFF"/>
+  <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
+    <path d="M12 12 C22 10 36 13 46 10 L45 50 C34 48 23 51 12 48 C14 36 10 24 12 12Z" fill="#EDE7FF" stroke="#24292F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18 12 C16 23 19 38 17 49" fill="none" stroke="#FF6685" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M24 22 C30 20 36 22 40 20 M24 29 C31 27 35 30 40 28 M24 36 C29 34 34 37 38 35" fill="none" stroke="#66707A" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M39 41 L48 30 L52 34 L43 44 L38 45Z" fill="#FFC94A" stroke="#24292F" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M8 7 L11 11 M46 5 L44 10 M55 16 L50 18" fill="none" stroke="#8B6CF6" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="61" y="47" font-size="28" font-weight="800" fill="#24292F">경험과 기록</text>
+    <path d="M63 59 C109 55 157 62 205 57 C230 55 249 59 270 57" fill="none" stroke="#8B6CF6" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

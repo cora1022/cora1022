@@ -1,0 +1,65 @@
+name: Update recent commits
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/**"
+      - "recent-commits.config.json"
+      - ".github/workflows/update-recent-commits.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-recent-commits-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Generate recent commit cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Generate recent commit cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_recent_commits.py
+
+      - name: Run tests
+        run: python -m unittest discover -s scripts/tests
+
+      - name: Check generated changes
+        id: changes
+        shell: bash
+        run: |
+          git add -A -- README.md assets/recent-commits/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push generated files
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update recent commits [skip ci]"
+          git push origin HEAD:main

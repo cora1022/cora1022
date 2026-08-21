@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 270" role="img" aria-labelledby="title desc">
+  <title id="title">도시 폐기물 통계 시뮬레이션</title>
+  <desc id="desc">도시 폐기물 데이터를 합성하고 CSV로 내보내는 웹 시뮬레이션</desc>
+  <path d="M13 7 C73 4 127 10 184 7 C241 5 294 10 338 7 Q345 8 343 18 L345 251 Q343 263 333 261 C273 265 222 259 169 263 C112 266 62 260 15 262 Q7 260 9 249 L7 20 Q8 10 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2.2"/>
+  <g transform="translate(21 62)" stroke="#24292F" stroke-linejoin="round">
+    <path d="M6 112 H91" fill="none" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M14 105 V70 H31 V105Z" fill="#8B6CF6" stroke-width="1.8"/>
+    <path d="M39 105 V42 H56 V105Z" fill="#A991F8" stroke-width="1.8"/>
+    <path d="M64 105 V77 H81 V105Z" fill="#8B6CF6" stroke-width="1.8"/>
+    <path d="M18 75 H27 M43 50 H52 M68 82 H77" fill="none" stroke="#CFC2FF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M52 15 A27 27 0 0 1 77 35 L52 42Z" fill="#8B6CF6" stroke-width="1.8"/>
+    <path d="M78 37 A27 27 0 0 1 64 65 L53 43Z" fill="#9BDCDD" stroke-width="1.8"/>
+    <path d="M62 66 A27 27 0 0 1 51 15 L52 42Z" fill="#FFFDF8" stroke-width="1.8"/>
+
+    <g transform="translate(86 69)" fill="none" stroke="#24292F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M16 1 L25 16 L19 15 M25 16 L23 9" stroke="#42C7C9"/>
+      <path d="M29 19 L20 34 L18 28 M20 34 L27 31" stroke="#42C7C9"/>
+      <path d="M15 34 H1 L5 29 M1 34 L5 38" stroke="#42C7C9"/>
+      <path d="M1 29 L9 15 L11 21 M9 15 L2 17" stroke="#42C7C9"/>
+    </g>
+    <path d="M5 125 C26 120 49 129 83 123" fill="none" stroke="#8B6CF6" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M2 20 L7 25 M2 31 L9 31 M9 15 L11 22" fill="none" stroke="#24292F" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif" fill="#24292F">
+    <text x="137" y="56" font-size="15" font-weight="800">도시 폐기물 통계</text>
+    <text x="137" y="76" font-size="15" font-weight="800">시뮬레이션</text>
+    <path d="M138 85 C174 81 211 88 250 83" fill="none" stroke="#8B6CF6" stroke-width="2" stroke-linecap="round"/>
+    <text x="137" y="113" font-size="12.6" font-weight="560">건물 유형과 인구 배율을 조정해</text>
+    <text x="137" y="134" font-size="12.6" font-weight="560">폐기물 데이터를 합성하고 CSV로</text>
+    <text x="137" y="155" font-size="12.6" font-weight="560">내보내는 웹 시뮬레이션입니다.</text>
+
+    <g transform="translate(148 174) rotate(-2 18 18)">
+      <path d="M2 3 Q18 0 35 3 L34 35 Q18 38 2 35Z" fill="#FFC94A" stroke="#24292F" stroke-width="1.7"/>
+      <text x="18" y="27" text-anchor="middle" font-size="19" font-weight="850">JS</text>
+      <path d="M1 43 C12 40 24 45 36 42" fill="none" stroke="#FFC94A" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(313 19) rotate(-5 10 10)">
+      <path d="M2 18 C8 12 12 8 18 3 M9 3 H18 V12" fill="none" stroke="#8B6CF6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

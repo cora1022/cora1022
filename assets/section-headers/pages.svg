@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 84" role="img" aria-labelledby="title desc">
+  <title id="title">페이지</title>
+  <desc id="desc">손그림 브라우저 창과 노란 밑줄로 꾸민 페이지 섹션 제목</desc>
+  <rect width="720" height="84" fill="#FFFFFF"/>
+  <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
+    <path d="M9 14 C19 11 37 14 47 11 C49 21 46 38 48 49 C36 47 21 51 10 48 C12 36 8 25 9 14Z" fill="#FFF3B8" stroke="#24292F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M10 22 C21 20 36 23 47 20" fill="none" stroke="#24292F" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="15" cy="17" r="1.8" fill="#FF6685"/>
+    <circle cx="21" cy="17" r="1.8" fill="#42C7C9"/>
+    <circle cx="27" cy="17" r="1.8" fill="#8B6CF6"/>
+    <path d="M18 32 C21 27 27 28 29 32 C31 36 27 40 23 39 M29 31 C32 27 38 28 40 32 C42 36 38 40 34 39 M25 34 C29 32 32 34 36 33" fill="none" stroke="#24292F" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M7 8 L11 11 M44 5 L42 10 M53 18 L48 20" fill="none" stroke="#FFC94A" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="61" y="47" font-size="28" font-weight="800" fill="#24292F">페이지</text>
+    <path d="M63 59 C91 55 121 62 151 57 C166 55 178 59 190 57" fill="none" stroke="#FFC94A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

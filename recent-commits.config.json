@@ -1,0 +1,15 @@
+{
+  "username": "cora1022",
+  "max_commits": 3,
+  "stats_days": 7,
+  "timezone": "Asia/Seoul",
+  "exclude_repositories": [
+    "cora1022/cora1022"
+  ],
+  "exclude_message_patterns": [
+    "^Merge pull request",
+    "^Update README\\.md$",
+    "update recent commits",
+    "update recent commit cards"
+  ]
+}

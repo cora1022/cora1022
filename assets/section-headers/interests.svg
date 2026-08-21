@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 84" role="img" aria-labelledby="title desc">
+  <title id="title">관심 있는거</title>
+  <desc id="desc">손그림 돋보기와 코랄 밑줄로 꾸민 관심 있는거 섹션 제목</desc>
+  <rect width="720" height="84" fill="#FFFFFF"/>
+  <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
+    <path d="M12 14 C19 8 33 9 40 17 C47 25 44 38 36 44 C27 50 15 46 10 37 C6 29 7 20 12 14Z" fill="#C9F1EE" stroke="#24292F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M17 19 C22 14 31 14 36 20 C41 26 39 35 34 39 C28 43 20 40 17 35 C13 29 14 23 17 19Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2" stroke-linecap="round"/>
+    <path d="M36 42 C41 46 45 50 49 55" fill="none" stroke="#24292F" stroke-width="3.3" stroke-linecap="round"/>
+    <path d="M7 8 L11 12 M43 7 L40 12 M51 24 L46 25" fill="none" stroke="#FF6685" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="61" y="47" font-size="28" font-weight="800" fill="#24292F">관심 있는거</text>
+    <path d="M63 59 C98 55 135 62 171 57 C191 55 206 59 221 57" fill="none" stroke="#FF6685" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

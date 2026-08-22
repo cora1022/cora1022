@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" role="img" aria-labelledby="title desc">
   <title id="title">OpenCV-pj-Fashion-Model 최근 공개 커밋</title>
-  <desc id="desc">FEAT, OpenCV-pj-Fashion-Model, 클라이언트와 실행 환경에 서비스 인증 연동, 00e1bc1, Python, 4분 전</desc>
+  <desc id="desc">FEAT, OpenCV-pj-Fashion-Model, 클라이언트와 실행 환경에 서비스 인증 연동, 00e1bc1, Python, 어제</desc>
   <path d="M13 7 C76 3 145 10 211 6 C280 2 350 11 407 5 Q416 6 413 17 C416 54 411 94 415 133 Q413 143 403 142 C333 146 267 139 199 143 C130 146 64 140 13 144 Q5 142 8 133 C5 94 10 54 6 17 Q7 9 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M13 14 C10 45 14 95 12 134" fill="none" stroke="#FF6685" stroke-width="3" stroke-linecap="round" opacity=".85"/>
 
@@ -21,7 +21,7 @@
     <text x="87" y="78" font-size="13" font-weight="680" fill="#24292F">OpenCV-pj-Fashion-Model</text>
     <circle cx="91" cy="105" r="3" fill="#FF6685"/>
     <text x="101" y="110" font-size="12.5" font-weight="620" fill="#66707A">00e1bc1 · Python</text>
-    <text x="393" y="110" text-anchor="end" font-size="12.5" font-weight="650" fill="#66707A">4분 전</text>
+    <text x="393" y="110" text-anchor="end" font-size="12.5" font-weight="650" fill="#66707A">어제</text>
     <path d="M88 126 C164 122 243 129 319 125" fill="none" stroke="#D8DEE4" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 6"/>
     <path d="M340 135 C356 130 369 139 384 133 C394 129 401 131 407 127" fill="none" stroke="#FF6685" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
   </g>

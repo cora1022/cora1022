@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" role="img" aria-labelledby="title desc">
-  <title id="title">gemini-raspberry-pi-robot 최근 공개 커밋</title>
-  <desc id="desc">COMMIT, gemini-raspberry-pi-robot, Add Japanese documentation and demo GIF, 25dc0ae, Python, 21시간 전</desc>
+  <title id="title">OpenCV-pj-Fashion-Model 최근 공개 커밋</title>
+  <desc id="desc">PERF, OpenCV-pj-Fashion-Model, 추론 동시 실행과 대기 시간 제한, 92ee9d2, Python, 어제</desc>
   <path d="M13 7 C76 3 145 10 211 6 C280 2 350 11 407 5 Q416 6 413 17 C416 54 411 94 415 133 Q413 143 403 142 C333 146 267 139 199 143 C130 146 64 140 13 144 Q5 142 8 133 C5 94 10 54 6 17 Q7 9 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M13 14 C10 45 14 95 12 134" fill="none" stroke="#C6B5E8" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <path d="M13 14 C10 45 14 95 12 134" fill="none" stroke="#FF9F68" stroke-width="3" stroke-linecap="round" opacity=".85"/>
 
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif" fill="#24292F">
-    <circle cx="45" cy="62" r="27" fill="#C6B5E8"/>
+    <circle cx="45" cy="62" r="27" fill="#FF9F68"/>
     <circle cx="43" cy="59" r="23" fill="#FFFFFF" opacity=".16"/>
-    <path d="M36 55 L29 62 L36 69 M54 55 L61 62 L54 69 M49 51 L41 73" fill="none" stroke="#24292F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="45" y="106" text-anchor="middle" font-size="11" font-weight="850" fill="#C6B5E8" letter-spacing=".4">COMMIT</text>
+    <path d="M49 48 L36 63 H45 L41 75 L56 58 H48 Z" fill="#24292F" stroke="#24292F" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="45" y="106" text-anchor="middle" font-size="11" font-weight="850" fill="#FF9F68" letter-spacing=".4">PERF</text>
 
     <g transform="translate(377 16) rotate(-5 10 10)">
-      <path d="M2 18 C8 12 12 8 18 3 M9 3 H18 V12" fill="none" stroke="#C6B5E8" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M2 18 C8 12 12 8 18 3 M9 3 H18 V12" fill="none" stroke="#FF9F68" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M4 22 C9 19 14 22 20 19" fill="none" stroke="#24292F" stroke-width="1.2" stroke-linecap="round"/>
     </g>
 
-    <text x="87" y="44" font-size="17" font-weight="780">Add Japanese documentation an…</text>
-    <path d="M88 53 C132 49 176 55 222 51 C246 49 267 53 288 51" fill="none" stroke="#C6B5E8" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
-    <text x="87" y="78" font-size="13" font-weight="680" fill="#24292F">gemini-raspberry-pi-robot</text>
-    <circle cx="91" cy="105" r="3" fill="#C6B5E8"/>
-    <text x="101" y="110" font-size="12.5" font-weight="620" fill="#66707A">25dc0ae · Python</text>
-    <text x="393" y="110" text-anchor="end" font-size="12.5" font-weight="650" fill="#66707A">21시간 전</text>
+    <text x="87" y="44" font-size="17" font-weight="780">추론 동시 실행과 대기 시간 제…</text>
+    <path d="M88 53 C132 49 176 55 222 51 C246 49 267 53 288 51" fill="none" stroke="#FF9F68" stroke-width="2.2" stroke-linecap="round" opacity=".9"/>
+    <text x="87" y="78" font-size="13" font-weight="680" fill="#24292F">OpenCV-pj-Fashion-Model</text>
+    <circle cx="91" cy="105" r="3" fill="#FF9F68"/>
+    <text x="101" y="110" font-size="12.5" font-weight="620" fill="#66707A">92ee9d2 · Python</text>
+    <text x="393" y="110" text-anchor="end" font-size="12.5" font-weight="650" fill="#66707A">어제</text>
     <path d="M88 126 C164 122 243 129 319 125" fill="none" stroke="#D8DEE4" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 6"/>
-    <path d="M340 135 C356 130 369 139 384 133 C394 129 401 131 407 127" fill="none" stroke="#C6B5E8" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
+    <path d="M340 135 C356 130 369 139 384 133 C394 129 401 131 407 127" fill="none" stroke="#FF9F68" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
   </g>
 </svg>

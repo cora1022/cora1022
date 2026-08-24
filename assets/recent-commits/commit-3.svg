@@ -6,9 +6,9 @@
   <path d="M13 14 C10 45 14 95 12 134" fill="none" stroke="#C6B5E8" stroke-width="3" stroke-linecap="round" opacity=".85"/>
 
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif" fill="#24292F">
-    <circle cx="45" cy="62" r="27" fill="#C6B5E8"/>
-    <circle cx="43" cy="59" r="23" fill="#FFFFFF" opacity=".16"/>
-    <path d="M36 55 L29 62 L36 69 M54 55 L61 62 L54 69 M49 51 L41 73" fill="none" stroke="#24292F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M45 34 C60 34 71 44 72 60 C74 75 63 88 47 89 C30 91 18 80 18 63 C17 47 29 35 45 34Z" fill="#C6B5E8" stroke="#24292F" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M31 43 C38 37 51 36 59 42 C48 41 36 46 29 55" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".2"/>
+    <g data-commit-icon="commit" fill="none" stroke="#24292F" stroke-linecap="round" stroke-linejoin="round"><path d="M39 48 C38 56 40 64 39 74 M41 55 C48 55 52 58 52 64" stroke-width="2.5"/><circle cx="39" cy="49" r="3.5" fill="#FFFFFF" stroke-width="2"/><circle cx="39" cy="74" r="3.5" fill="#FFFFFF" stroke-width="2"/><circle cx="52" cy="67" r="3.5" fill="#24292F" stroke-width="1.7"/><path d="M56 50 C59 52 60 54 61 57" stroke-width="1.7"/></g>
     <text x="45" y="106" text-anchor="middle" font-size="11" font-weight="850" fill="#C6B5E8" letter-spacing=".4">COMMIT</text>
 
     <g transform="translate(377 16) rotate(-5 10 10)">

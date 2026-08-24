@@ -6,9 +6,9 @@
   <path d="M13 14 C10 45 14 95 12 134" fill="none" stroke="#8C959F" stroke-width="3" stroke-linecap="round" opacity=".85"/>
 
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif" fill="#24292F">
-    <circle cx="45" cy="62" r="27" fill="#8C959F"/>
-    <circle cx="43" cy="59" r="23" fill="#FFFFFF" opacity=".16"/>
-    <path d="M45 49 V73 M33 61 H57 M37 53 L53 69 M53 53 L37 69" fill="none" stroke="#24292F" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M45 34 C60 34 71 44 72 60 C74 75 63 88 47 89 C30 91 18 80 18 63 C17 47 29 35 45 34Z" fill="#8C959F" stroke="#24292F" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M31 43 C38 37 51 36 59 42 C48 41 36 46 29 55" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".2"/>
+    <g data-commit-icon="chore" fill="none" stroke="#24292F" stroke-linecap="round" stroke-linejoin="round"><path d="M39 48 C42 54 46 60 50 67" stroke-width="2.8"/><path d="M47 65 L56 60 C58 65 57 70 53 74 C49 73 46 70 44 67Z" stroke-width="2.2"/><path d="M49 69 L55 66 M51 72 L56 69 M34 68 L31 70 M34 63 L30 62" stroke-width="1.7"/></g>
     <text x="45" y="106" text-anchor="middle" font-size="11" font-weight="850" fill="#8C959F" letter-spacing=".4">CHORE</text>
 
     <g transform="translate(377 16) rotate(-5 10 10)">

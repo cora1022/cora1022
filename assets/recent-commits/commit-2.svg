@@ -6,9 +6,9 @@
   <path d="M13 14 C10 45 14 95 12 134" fill="none" stroke="#FF9F68" stroke-width="3" stroke-linecap="round" opacity=".85"/>
 
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif" fill="#24292F">
-    <circle cx="45" cy="62" r="27" fill="#FF9F68"/>
-    <circle cx="43" cy="59" r="23" fill="#FFFFFF" opacity=".16"/>
-    <path d="M49 48 L36 63 H45 L41 75 L56 58 H48 Z" fill="#24292F" stroke="#24292F" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M45 34 C60 34 71 44 72 60 C74 75 63 88 47 89 C30 91 18 80 18 63 C17 47 29 35 45 34Z" fill="#FF9F68" stroke="#24292F" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M31 43 C38 37 51 36 59 42 C48 41 36 46 29 55" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".2"/>
+    <g data-commit-icon="perf" fill="none" stroke="#24292F" stroke-linecap="round" stroke-linejoin="round"><path d="M33 68 C32 57 38 49 46 48 C55 48 61 57 59 68" stroke-width="2.5"/><path d="M37 68 C42 66 50 66 56 68 M45 64 L53 53" stroke-width="2.5"/><circle cx="45" cy="64" r="2.2" fill="#24292F" stroke="none"/><path d="M31 54 L27 52 M59 53 L63 50 M45 46 L45 42" stroke-width="1.8"/></g>
     <text x="45" y="106" text-anchor="middle" font-size="11" font-weight="850" fill="#FF9F68" letter-spacing=".4">PERF</text>
 
     <g transform="translate(377 16) rotate(-5 10 10)">

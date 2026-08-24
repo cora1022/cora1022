@@ -43,6 +43,7 @@ from scripts.generate_recent_commits import (
     should_exclude_message,
     truncate_text,
     xml_escape,
+    _commit_type_icon_svg,
 )
 
 
@@ -592,6 +593,21 @@ class TextSafetyTests(unittest.TestCase):
         self.assertIn('fill="#FFFFFF" stroke="#24292F" stroke-width="1.75"', svg)
         self.assertIn('M13 14 C10 45 14 95 12 134', svg)
         self.assertIn('stroke-dasharray="5 6"', svg)
+        self.assertIn('M45 34 C60 34 71 44 72 60', svg)
+
+    def test_commit_type_icons_use_named_doodle_symbols(self) -> None:
+        chore = _commit_type_icon_svg("CHORE")
+        perf = _commit_type_icon_svg("PERF")
+        commit = _commit_type_icon_svg("COMMIT")
+
+        self.assertIn('data-commit-icon="chore"', chore)
+        self.assertIn('data-commit-icon="perf"', perf)
+        self.assertIn('data-commit-icon="commit"', commit)
+        self.assertIn('M47 65 L56 60', chore)
+        self.assertIn('M33 68 C32 57', perf)
+        self.assertIn('circle cx="52" cy="67"', commit)
+        for icon in (chore, perf, commit):
+            ET.fromstring(f'<svg xmlns="http://www.w3.org/2000/svg">{icon}</svg>')
 
     def test_header_uses_simplified_korean_title(self) -> None:
         svg = render_header_svg(

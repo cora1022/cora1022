@@ -33,16 +33,16 @@
   <br clear="all">
   <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model"><img src="./assets/featured-projects/project-opencv.svg" width="53%" align="left" alt="OpenCV 기반 패션 이미지 유사도 검색"></a>
 <!-- RECENT_COMMIT_1_START -->
-  <a href="https://github.com/cora1022/nutri-kids-project/commit/3ffd1b7800bcc444deb630f31e8b01807d3746b7"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></a>
+  <a href="https://github.com/cora1022/nutri-kids-project/commit/0dbcff11589ac5b9d6173cb2cc8d89db7fe76d7b"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></a>
 <!-- RECENT_COMMIT_1_END -->
 <!-- RECENT_COMMIT_2_START -->
-  <a href="https://github.com/cora1022/nutri-kids-project/commit/3ad3c798195938b40d4d5e9fabc55c5da1fc3819"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></a>
+  <a href="https://github.com/cora1022/nutri-kids-project/commit/3ffd1b7800bcc444deb630f31e8b01807d3746b7"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></a>
 <!-- RECENT_COMMIT_2_END -->
   <br clear="left">
   <a href="https://github.com/cora1022/gemini-raspberry-pi-robot"><img src="./assets/featured-projects/project-robot.svg" width="25%" align="left" alt="Gemini Raspberry Pi Robot"></a>
   <a href="https://github.com/cora1022/Urban-Waste-Statistics-Simulation"><img src="./assets/featured-projects/project-waste.svg" width="25%" align="left" alt="도시 폐기물 통계 시뮬레이션"></a>
 <!-- RECENT_COMMIT_3_START -->
-  <a href="https://github.com/cora1022/nutri-kids-project/commit/8a19848dace4052504e77a5c56589c2b4bf2cbcd"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></a>
+  <a href="https://github.com/cora1022/nutri-kids-project/commit/3ad3c798195938b40d4d5e9fabc55c5da1fc3819"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></a>
 <!-- RECENT_COMMIT_3_END -->
   <br clear="all">
 </div>

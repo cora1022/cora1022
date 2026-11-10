@@ -33,16 +33,16 @@
   <br clear="all">
   <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model"><img src="./assets/featured-projects/project-opencv.svg" width="53%" align="left" alt="OpenCV 기반 패션 이미지 유사도 검색"></a>
 <!-- RECENT_COMMIT_1_START -->
-  <a href="https://github.com/cora1022/nutri-kids-project/commit/3c541d406fcb10440629157663b5f6bfd2ad9fea"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></a>
+  <a href="https://github.com/cora1022/Style-Finder/commit/3f43739a2ac2449e4acadce91a650c2e7140af49"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></a>
 <!-- RECENT_COMMIT_1_END -->
 <!-- RECENT_COMMIT_2_START -->
-  <a href="https://github.com/cora1022/static-nutri/commit/d4e745565e76ad7d4f7f443b7902c35aebed7551"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></a>
+  <a href="https://github.com/cora1022/Style-Finder/commit/b17812279049a042ec9fdebb8191d6574fef713e"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></a>
 <!-- RECENT_COMMIT_2_END -->
   <br clear="left">
   <a href="https://github.com/cora1022/gemini-raspberry-pi-robot"><img src="./assets/featured-projects/project-robot.svg" width="25%" align="left" alt="Gemini Raspberry Pi Robot"></a>
   <a href="https://github.com/cora1022/Urban-Waste-Statistics-Simulation"><img src="./assets/featured-projects/project-waste.svg" width="25%" align="left" alt="도시 폐기물 통계 시뮬레이션"></a>
 <!-- RECENT_COMMIT_3_START -->
-  <a href="https://github.com/cora1022/nutri-kids-project/commit/762e0207a5fa5d3c4e149457bac8e97125ab5a86"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></a>
+  <a href="https://github.com/cora1022/Style-Finder/commit/89887f6f963978919eca1537efd6c8335017d0fd"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></a>
 <!-- RECENT_COMMIT_3_END -->
   <br clear="all">
 </div>

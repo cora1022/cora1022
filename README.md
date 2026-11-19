@@ -59,7 +59,3 @@
 - 2026 국가표준식품성분 DB 활용 아이디어 공모전 / **최우수상 수상** [든든 프로젝트](https://github.com/cora1022/nutri-kids-project)
 - NYPC Master Track 2026 / **베스트 리플레이 수상** [NYPC 참가 타임라인](https://cora1022.com/blog/posts/nypc-participation-timeline.html)
 - 제24회 임베디드SW경진대회 자유공모부문 참여 [생각하고 동작하는 라즈베리파이 로봇](https://github.com/cora1022/2026ESWContest_free_ABOUTCREATE)
-- 제10회 디지털 헬스케어 MEDICAL HACK 2026 참여 AI 기반 질환 맞춤형 식단 영양분석 서비스
-- CODEGATE AI START-UP 해커톤 참여
-- 2026 AI 디지털 기반 사회문제 해결 챌린지 참여
-- DATA AI 분석 경진대회 참여

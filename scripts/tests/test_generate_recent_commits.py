@@ -719,6 +719,9 @@ class ReadmeReplacementTests(unittest.TestCase):
         self.assertIn('href="featured"', result)
         self.assertIn('<br clear="all">', result)
         self.assertNotIn("old 1", result)
+        self.assertEqual(result.count('<picture>'), 3)
+        self.assertEqual(result.count('media="(max-width: 767px)"'), 3)
+        self.assertEqual(result.count('srcset="./assets/mobile-hidden.svg"'), 3)
         for index in range(1, 4):
             self.assertIn(f"project-{index}/commit/{index * 40}", result)
             self.assertIn(f'commit-{index}.svg" width="41%" align="right"', result)
@@ -768,6 +771,7 @@ class ReadmeReplacementTests(unittest.TestCase):
         self.assertEqual(result.count("commit-1.svg"), 1)
         self.assertNotIn("commit-2.svg", result)
         self.assertNotIn("commit-3.svg", result)
+        self.assertIn('srcset="./assets/mobile-hidden.svg"', result)
 
     def test_any_partial_float_slot_forces_safe_slot_validation(self) -> None:
         malformed = (

@@ -1087,6 +1087,15 @@ def _slot_marker(index: int, edge: str) -> str:
     return f"<!-- RECENT_COMMIT_{index}_{edge} -->"
 
 
+def desktop_picture(image: str) -> str:
+    """Keep the desktop image and use a near-zero-height blank on mobile."""
+
+    return (
+        '<picture><source media="(max-width: 767px)" '
+        'srcset="./assets/mobile-hidden.svg">' + image + '</picture>'
+    )
+
+
 def _build_readme_slot(
     commit: Commit | None,
     index: int,
@@ -1098,14 +1107,19 @@ def _build_readme_slot(
     if commit is not None:
         url = html.escape(commit.url, quote=True)
         lines.append(
-            f'  <a href="{url}"><img '
-            f'src="./assets/recent-commits/commit-{index}.svg" width="41%" '
-            f'align="right" alt="최근 공개 커밋 {index}"></a>'
+            f'  <a href="{url}">'
+            + desktop_picture(
+                f'<img src="./assets/recent-commits/commit-{index}.svg" width="41%" '
+                f'align="right" alt="최근 공개 커밋 {index}">'
+            )
+            + '</a>'
         )
     elif empty_state:
         lines.append(
-            '  <img src="./assets/recent-commits/commit-1.svg" width="41%" '
-            'align="right" alt="최근 공개 커밋 없음">'
+            '  ' + desktop_picture(
+                '<img src="./assets/recent-commits/commit-1.svg" width="41%" '
+                'align="right" alt="최근 공개 커밋 없음">'
+            )
         )
     lines.append(_slot_marker(index, "END"))
     return newline.join(lines)

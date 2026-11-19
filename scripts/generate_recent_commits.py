@@ -1087,11 +1087,11 @@ def _slot_marker(index: int, edge: str) -> str:
     return f"<!-- RECENT_COMMIT_{index}_{edge} -->"
 
 
-def desktop_picture(image: str) -> str:
-    """Keep the desktop image and use a near-zero-height blank on mobile."""
+def desktop_picture(image: str, hide_below: int = 768) -> str:
+    """Use a near-zero-height blank below the requested viewport width."""
 
     return (
-        '<picture><source media="(max-width: 767px)" '
+        f'<picture><source media="(max-width: {hide_below - 1}px)" '
         'srcset="./assets/mobile-hidden.svg">' + image + '</picture>'
     )
 
@@ -1110,7 +1110,8 @@ def _build_readme_slot(
             f'  <a href="{url}">'
             + desktop_picture(
                 f'<img src="./assets/recent-commits/commit-{index}.svg" width="41%" '
-                f'align="right" alt="최근 공개 커밋 {index}">'
+                f'align="right" alt="최근 공개 커밋 {index}">',
+                hide_below=1280,
             )
             + '</a>'
         )
@@ -1118,7 +1119,8 @@ def _build_readme_slot(
         lines.append(
             '  ' + desktop_picture(
                 '<img src="./assets/recent-commits/commit-1.svg" width="41%" '
-                'align="right" alt="최근 공개 커밋 없음">'
+                'align="right" alt="최근 공개 커밋 없음">',
+                hide_below=1280,
             )
         )
     lines.append(_slot_marker(index, "END"))

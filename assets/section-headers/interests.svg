@@ -2,6 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 84" role="img" aria-labelledby="title desc">
   <title id="title">관심 있는거</title>
   <desc id="desc">손그림 돋보기와 코랄 밑줄로 꾸민 관심 있는거 섹션 제목</desc>
+  <style>.compact{display:none}@media(max-width:300px){.desktop{display:none}.compact{display:inline}}</style>
+  <g class="desktop">
   <rect width="720" height="84" fill="#FFFFFF"/>
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
     <path d="M12 14 C19 8 33 9 40 17 C47 25 44 38 36 44 C27 50 15 46 10 37 C6 29 7 20 12 14Z" fill="#C9F1EE" stroke="#24292F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -11,4 +13,6 @@
     <text x="61" y="47" font-size="28" font-weight="800" fill="#24292F">관심 있는거</text>
     <path d="M63 59 C98 55 135 62 171 57 C191 55 206 59 221 57" fill="none" stroke="#FF6685" stroke-width="3" stroke-linecap="round"/>
   </g>
+</g>
+  <g class="compact"><rect width="720" height="84" fill="#FFFFFF"/><g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif"><text x="12" y="62" font-size="62" font-weight="800" fill="#24292F">관심 있는거</text><path d="M14 77 Q190 71 400 77" fill="none" stroke="#FF6685" stroke-width="4" stroke-linecap="round"/></g></g>
 </svg>

@@ -2,6 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 270" role="img" aria-labelledby="title desc">
   <title id="title">든든 — 공모전 최우수상 수상</title>
   <desc id="desc">2026 국가표준식품성분 DB 활용 아이디어 공모전에 출품해 최우수상을 수상한 프로젝트. FastAPI, React 사용.</desc>
+  <style>.compact{display:none}@media(max-width:180px){.desktop{display:none}.compact{display:inline}}</style>
+  <g class="desktop">
   <path d="M13 7 C73 4 127 10 184 7 C241 5 294 10 338 7 Q345 8 343 18 L345 251 Q343 263 333 261 C273 265 222 259 169 263 C112 266 62 260 15 262 Q7 260 9 249 L7 20 Q8 10 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2.2"/>
   <g transform="translate(18 64) rotate(-5 53 72)" stroke="#24292F" stroke-linecap="round" stroke-linejoin="round">
     <path d="M13 39 Q53 31 97 38 L99 53 L10 56Z" fill="#E9E2FF" stroke-width="2"/>
@@ -58,4 +60,37 @@
       <path d="M15 21 Q18 15 23 14" fill="none" stroke="#FFFFFF" stroke-width="2"/>
     </g>
   </g>
+</g>
+  <g class="compact">  <path d="M13 7 C73 4 127 10 184 7 C241 5 294 10 338 7 Q345 8 343 18 L345 251 Q343 263 333 261 C273 265 222 259 169 263 C112 266 62 260 15 262 Q7 260 9 249 L7 20 Q8 10 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2.2"/><g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif" fill="#24292F"><text x="26" y="82" font-size="70" font-weight="800">든든</text><path d="M27 143 Q122 135 209 142" fill="none" stroke="#FFE7A3" stroke-width="24" stroke-linecap="round"/><text x="26" y="150" font-size="44" font-weight="800">최우수상</text><text x="28" y="208" font-size="32" font-weight="600">공모전</text></g>    <g transform="translate(275 20) rotate(8 28 28)" stroke="#24292F" stroke-linecap="round" stroke-linejoin="round">
+      <title>최우수상 수상 메달</title>
+      <path d="M13 42 L9 73 L22 66 L30 75 L33 43Z" fill="#8B6CF6" stroke-width="1.7"/>
+      <path d="M29 43 L33 74 L42 65 L52 70 L43 40Z" fill="#B8A2FF" stroke-width="1.7"/>
+      <path d="M18 49 L15 62 M39 49 L43 61" fill="none" stroke="#E9E2FF" stroke-width="2"/>
+      <path d="M28 3 L34 7 L42 7 L45 14 L52 18 L51 26 L54 33 L48 39 L46 47 L38 48 L31 53 L24 49 L16 50 L12 43 L5 39 L6 31 L3 24 L9 18 L11 10 L19 9Z" fill="#FFC94A" stroke-width="1.9"/>
+      <circle cx="28" cy="28" r="17" fill="#FFE7A3" stroke="#CB931F" stroke-width="1.4"/>
+      <path d="M28 16 L31 23 L39 24 L33 30 L35 38 L28 34 L21 38 L23 30 L17 24 L25 23Z" fill="#E5A52C" stroke="#B87A17" stroke-width="1.2"/>
+      <path d="M15 21 Q18 15 23 14" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    </g><g transform="translate(188 126) scale(.56)">  <g transform="translate(18 64) rotate(-5 53 72)" stroke="#24292F" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 39 Q53 31 97 38 L99 53 L10 56Z" fill="#E9E2FF" stroke-width="2"/>
+    <path d="M12 55 Q52 48 97 53 L96 120 Q94 128 85 129 L21 129 Q11 128 10 118Z" fill="#8B6CF6" stroke-width="2.3"/>
+    <path d="M18 61 Q54 55 90 60 L89 116 Q55 121 18 116Z" fill="#FFFDF8" stroke-width="1.7"/>
+    <path d="M57 60 L56 117 M58 88 L89 87" fill="none" stroke-width="1.5"/>
+    <path d="M23 99 C18 92 23 83 27 83 C24 75 32 70 37 73 C44 66 52 74 50 80 C57 85 51 95 53 101 Q42 110 27 105Z" fill="#FFFFFF" stroke-width="1.5"/>
+    <path d="M29 80 L31 78 M42 76 L44 77 M25 91 L27 89 M47 96 L49 94" fill="none" stroke="#C5C9CE" stroke-width="1.3"/>
+    <circle cx="33" cy="92" r="1.9" fill="#24292F" stroke="none"/>
+    <circle cx="45" cy="91" r="1.9" fill="#24292F" stroke="none"/>
+    <path d="M35 98 Q40 102 44 97" fill="none" stroke-width="1.4"/>
+    <path d="M63 79 C59 73 65 67 70 70 C71 62 80 63 82 70 C90 69 92 79 86 83 L65 84Z" fill="#83C66C" stroke-width="1.5"/>
+    <path d="M75 71 L75 81 M68 76 L75 81 L83 76" fill="none" stroke="#FFFFFF" stroke-width="1.3"/>
+    <path d="M62 104 C58 96 65 91 72 93 C78 90 87 97 85 105 C83 115 66 117 62 104Z" fill="#FFFFFF" stroke-width="1.5"/>
+    <path d="M68 99 C73 95 80 99 78 105 C74 111 66 106 68 99Z" fill="#FFC94A" stroke="#E4A726" stroke-width="1.1"/>
+    <path d="M26 139 C45 135 68 142 89 136" fill="none" stroke="#8B6CF6" stroke-width="2.3"/>
+    <g transform="translate(70 3) rotate(12 16 16)">
+      <path d="M3 5 Q17 0 30 5 L31 28 Q17 33 3 28Z" fill="#FFFFFF" stroke-width="1.8"/>
+      <path d="M9 16 L15 22 L25 10" fill="none" stroke="#8B6CF6" stroke-width="2.8"/>
+    </g>
+    <path d="M18 15 L21 23 M8 26 L16 28 M31 12 L29 20" fill="none" stroke="#FFC94A" stroke-width="2.2"/>
+  </g>
+
+</g></g>
 </svg>

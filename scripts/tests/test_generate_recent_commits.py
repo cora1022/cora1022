@@ -27,7 +27,9 @@ from scripts.generate_recent_commits import (
     build_readme_block,
     calculate_stats,
     calculate_streak,
+    compact_commit_svg,
     collect_public_commits,
+    fixture_commits,
     has_readme_slots,
     is_bot_identity,
     main,
@@ -640,6 +642,39 @@ class TextSafetyTests(unittest.TestCase):
         svg = render_empty_svg()
 
         self.assertIn('fill="#FFFFFF" stroke="#24292F" stroke-width="2.2"', svg)
+
+
+class ResponsiveCardTests(unittest.TestCase):
+    def test_generated_header_card_and_empty_state_keep_both_layouts(self) -> None:
+        now = datetime(2026, 11, 19, 10, 0, tzinfo=KST)
+        commit = fixture_commits(base_config(), now)[0]
+        for svg in (
+            render_header_svg({}),
+            render_commit_svg(commit, now, KST),
+            render_empty_svg(),
+        ):
+            root = ET.fromstring(svg)
+            ns = {"s": "http://www.w3.org/2000/svg"}
+            self.assertIn("@media(max-width:230px)", root.find("s:style", ns).text)
+            for layout in ("desktop", "compact"):
+                group = root.find(f"s:g[@class='{layout}']", ns)
+                self.assertIsNotNone(group)
+                self.assertGreater(len(group), 0)
+
+    def test_compact_card_escapes_repository_and_commit_text(self) -> None:
+        fragment = compact_commit_svg('<script>&"', 'repo<&"', 'DOCS', '#FFC94A')
+        root = ET.fromstring(f'<svg xmlns="http://www.w3.org/2000/svg">{fragment}</svg>')
+        self.assertIsNone(root.find(".//{http://www.w3.org/2000/svg}script"))
+        content = "".join(root.itertext())
+        self.assertIn('<script>&"', content)
+        self.assertIn('repo<&"', content)
+
+    def test_full_commit_title_remains_in_accessible_description(self) -> None:
+        now = datetime(2026, 11, 19, 10, 0, tzinfo=KST)
+        commit = fixture_commits(base_config(), now)[0]
+        root = ET.fromstring(render_commit_svg(commit, now, KST))
+        description = root.find("{http://www.w3.org/2000/svg}desc").text
+        self.assertIn(commit.title, description)
 
 
 class ReadmeReplacementTests(unittest.TestCase):

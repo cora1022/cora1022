@@ -889,8 +889,36 @@ def _svg_root(
     )
 
 
+def responsive_svg(svg: str, compact: str, breakpoint: int) -> str:
+    """Switch artwork at the embedded image width without changing its bounds."""
+
+    start = svg.index("</desc>") + len("</desc>")
+    end = svg.rindex("</svg>")
+    style = (
+        '<style>.compact{display:none}'
+        f'@media(max-width:{breakpoint}px)'
+        '{.desktop{display:none}.compact{display:inline}}</style>'
+    )
+    return (
+        svg[:start] + "\n  " + style + '\n  <g class="desktop">'
+        + svg[start:end] + '</g>\n  <g class="compact">'
+        + compact + "</g>\n" + svg[end:]
+    )
+
+
+def compact_header_svg(title: str, color: str) -> str:
+    return (
+        '<rect width="720" height="84" fill="#FFFFFF"/>'
+        '<g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif">'
+        f'<text x="12" y="62" font-size="62" font-weight="800" '
+        f'fill="#24292F">{xml_escape(title)}</text>'
+        f'<path d="M14 77 Q190 71 400 77" fill="none" stroke="{color}" '
+        'stroke-width="4" stroke-linecap="round"/></g>'
+    )
+
+
 def render_header_svg(_stats: Mapping[str, int]) -> str:
-    return f"""<?xml version="1.0" encoding="UTF-8"?>
+    svg = f"""<?xml version="1.0" encoding="UTF-8"?>
 {_svg_root("title", "desc", 84)}
   <title id="title">요즘 커밋한거</title>
   <desc id="desc">검정 깃허브 고양이 낙서와 보라색 밑줄로 꾸민 최근 커밋 섹션 제목</desc>
@@ -910,6 +938,7 @@ def render_header_svg(_stats: Mapping[str, int]) -> str:
   </g>
 </svg>
 """
+    return responsive_svg(svg, compact_header_svg("요즘 커밋한거", "#8B6CF6"), 230)
 
 
 def _commit_type_icon_svg(commit_type: str) -> str:
@@ -946,7 +975,7 @@ def render_commit_svg(commit: Commit, now: datetime, tz: str | tzinfo) -> str:
         f"{commit_type}, {repository_name}, {commit.title}, {commit.sha[:7]}, "
         f"{commit.language}, {relative_time(commit.authored_at, now, tz)}"
     )
-    return f"""<?xml version="1.0" encoding="UTF-8"?>
+    svg = f"""<?xml version="1.0" encoding="UTF-8"?>
 {_svg_root("title", "desc", 148, 420)}
   <title id="title">{repository_accessible} 최근 공개 커밋</title>
   <desc id="desc">{description}</desc>
@@ -975,10 +1004,35 @@ def render_commit_svg(commit: Commit, now: datetime, tz: str | tzinfo) -> str:
   </g>
 </svg>
 """
+    return responsive_svg(
+        svg, compact_commit_svg(commit.title, repository_name, commit_type, color), 230
+    )
+
+
+def compact_commit_svg(title: str, repository: str, kind: str, color: str) -> str:
+    # Keep the full message in the accessible description of the outer SVG.
+    clusters = _graphemes(title)
+    first: list[str] = []
+    used = 0
+    while clusters and used + _cluster_width(clusters[0]) <= 24:
+        cluster = clusters.pop(0)
+        first.append(cluster)
+        used += _cluster_width(cluster)
+    line1 = xml_escape("".join(first))
+    line2 = xml_escape(truncate_text("".join(clusters), 24))
+    repo = xml_escape(truncate_text(repository, 26))
+    return f'''<path d="M13 7 Q210 2 407 5 L415 133 Q210 147 13 144 L6 17Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2"/>
+  <path d="M13 14 L12 134" fill="none" stroke="{color}" stroke-width="5"/>
+  <g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif" fill="#24292F">
+    <text x="28" y="32" font-size="22" font-weight="800" fill="{color}">{xml_escape(kind)}</text>
+    <text x="28" y="72" font-size="30" font-weight="780">{line1}</text>
+    <text x="28" y="107" font-size="30" font-weight="780">{line2}</text>
+    <text x="28" y="132" font-size="22" font-weight="600" fill="#66707A">{repo}</text>
+  </g>'''
 
 
 def render_empty_svg() -> str:
-    return f"""<?xml version="1.0" encoding="UTF-8"?>
+    svg = f"""<?xml version="1.0" encoding="UTF-8"?>
 {_svg_root("title", "desc", 116)}
   <title id="title">최근 공개 커밋 없음</title>
   <desc id="desc">최근 표시할 공개 커밋이 없습니다. 새로운 작업이 올라오면 이곳에 자동으로 표시됩니다.</desc>
@@ -996,6 +1050,8 @@ def render_empty_svg() -> str:
   <path d="M578 89 C607 75 632 95 655 78 C670 68 685 73 695 62" fill="none" stroke="#8B6CF6" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 7" opacity=".55"/>
 </svg>
 """
+    compact = '<text x="30" y="75" font-family="sans-serif" font-size="48" fill="#66707A">최근 공개 커밋 없음</text>'
+    return responsive_svg(svg, compact, 230)
 
 
 def build_readme_block(

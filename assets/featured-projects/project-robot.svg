@@ -2,6 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 270" role="img" aria-labelledby="title desc">
   <title id="title">생각하고 동작하는 라즈베리파이 로봇</title>
   <desc id="desc">Raspberry Pi 5와 Gemini로 음성 명령을 처리하고, 브라우저 원격 제어와 로봇 내부 안전정지를 구현한 프로젝트.</desc>
+  <style>.compact{display:none}@media(max-width:180px){.desktop{display:none}.compact{display:inline}}</style>
+  <g class="desktop">
   <path d="M13 7 C73 4 127 10 184 7 C241 5 294 10 338 7 Q345 8 343 18 L345 251 Q343 263 333 261 C273 265 222 259 169 263 C112 266 62 260 15 262 Q7 260 9 249 L7 20 Q8 10 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2.2"/>
   <g transform="translate(22 55)" stroke="#24292F" stroke-linejoin="round">
     <path d="M43 9 V24" fill="none" stroke-width="2.1" stroke-linecap="round"/>
@@ -47,4 +49,23 @@
       <path d="M2 18 C8 12 12 8 18 3 M9 3 H18 V12" fill="none" stroke="#42C7C9" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
+</g>
+  <g class="compact">  <path d="M13 7 C73 4 127 10 184 7 C241 5 294 10 338 7 Q345 8 343 18 L345 251 Q343 263 333 261 C273 265 222 259 169 263 C112 266 62 260 15 262 Q7 260 9 249 L7 20 Q8 10 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2.2"/><g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif" fill="#24292F"><text x="26" y="70" font-size="43" font-weight="800">라즈베리파이</text><text x="26" y="143" font-size="68" font-weight="800">로봇</text><path d="M28 159 Q94 152 168 159" fill="none" stroke="#42C7C9" stroke-width="5"/></g><g transform="translate(200 112) scale(.64)">  <g transform="translate(22 55)" stroke="#24292F" stroke-linejoin="round">
+    <path d="M43 9 V24" fill="none" stroke-width="2.1" stroke-linecap="round"/>
+    <circle cx="43" cy="6" r="5" fill="#42C7C9" stroke-width="1.8"/>
+    <path d="M16 32 Q16 23 25 23 H65 Q74 23 74 32 V72 Q74 80 65 80 H25 Q16 80 16 71Z" fill="#FFFDF8" stroke-width="2.4"/>
+    <path d="M25 39 Q45 34 65 39 L63 65 Q45 70 27 65Z" fill="#42C7C9" stroke-width="1.8"/>
+    <circle cx="36" cy="51" r="2.2" fill="#24292F" stroke="none"/><circle cx="54" cy="51" r="2.2" fill="#24292F" stroke="none"/>
+    <path d="M38 59 Q45 64 52 58" fill="none" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M12 45 Q5 46 5 56 V64 Q5 71 12 71 M78 45 Q85 46 85 56 V64 Q85 71 78 71" fill="#C9F1EE" stroke-width="2"/>
+    <path d="M27 83 Q45 78 63 83 L68 124 Q45 132 22 124Z" fill="#FFFFFF" stroke-width="2.3"/>
+    <circle cx="37" cy="97" r="2" fill="#42C7C9" stroke="none"/><circle cx="48" cy="97" r="2" fill="#42C7C9" stroke="none"/>
+    <path d="M22 91 C8 93 4 105 8 119 M68 90 C83 89 91 79 88 67" fill="none" stroke-width="4" stroke-linecap="round"/>
+    <path d="M86 69 C84 62 88 57 92 61 M86 69 C93 70 97 66 96 62" fill="none" stroke-width="2.1" stroke-linecap="round"/>
+    <path d="M18 126 L11 142 M67 126 L74 142" fill="none" stroke-width="4" stroke-linecap="round"/>
+    <path d="M2 151 C29 142 47 156 72 148" fill="none" stroke="#42C7C9" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M91 23 C94 16 102 16 104 22 C106 28 98 33 92 38 C86 32 84 27 87 23 C88 21 90 21 91 23Z" fill="#42C7C9" stroke="none"/>
+  </g>
+
+</g></g>
 </svg>

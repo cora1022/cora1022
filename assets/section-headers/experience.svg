@@ -2,6 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 84" role="img" aria-labelledby="title desc">
   <title id="title">경험과 기록</title>
   <desc id="desc">손그림 노트와 보라 밑줄로 꾸민 경험과 기록 섹션 제목</desc>
+  <style>.compact{display:none}@media(max-width:300px){.desktop{display:none}.compact{display:inline}}</style>
+  <g class="desktop">
   <rect width="720" height="84" fill="#FFFFFF"/>
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
     <path d="M12 12 C22 10 36 13 46 10 L45 50 C34 48 23 51 12 48 C14 36 10 24 12 12Z" fill="#EDE7FF" stroke="#24292F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -12,4 +14,6 @@
     <text x="61" y="47" font-size="28" font-weight="800" fill="#24292F">경험과 기록</text>
     <path d="M63 59 C109 55 157 62 205 57 C230 55 249 59 270 57" fill="none" stroke="#8B6CF6" stroke-width="3" stroke-linecap="round"/>
   </g>
+</g>
+  <g class="compact"><rect width="720" height="84" fill="#FFFFFF"/><g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif"><text x="12" y="62" font-size="62" font-weight="800" fill="#24292F">경험과 기록</text><path d="M14 77 Q190 71 400 77" fill="none" stroke="#8B6CF6" stroke-width="4" stroke-linecap="round"/></g></g>
 </svg>

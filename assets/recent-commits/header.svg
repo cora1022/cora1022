@@ -2,6 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 84" role="img" aria-labelledby="title desc">
   <title id="title">요즘 커밋한거</title>
   <desc id="desc">검정 깃허브 고양이 낙서와 보라색 밑줄로 꾸민 최근 커밋 섹션 제목</desc>
+  <style>.compact{display:none}@media(max-width:230px){.desktop{display:none}.compact{display:inline}}</style>
+  <g class="desktop">
   <rect width="720" height="84" fill="#FFFFFF"/>
 
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif" fill="#24292F">
@@ -16,4 +18,6 @@
     <text x="61" y="60" font-size="36" font-weight="800">요즘 커밋한거</text>
     <path d="M63 74 C109 70 158 77 210 72 C229 71 244 74 260 72" fill="none" stroke="#8B6CF6" stroke-width="3" stroke-linecap="round"/>
   </g>
+</g>
+  <g class="compact"><rect width="720" height="84" fill="#FFFFFF"/><g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif"><text x="12" y="62" font-size="62" font-weight="800" fill="#24292F">요즘 커밋한거</text><path d="M14 77 Q190 71 400 77" fill="none" stroke="#8B6CF6" stroke-width="4" stroke-linecap="round"/></g></g>
 </svg>

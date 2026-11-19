@@ -2,6 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 84" role="img" aria-labelledby="title desc">
   <title id="title">대표 프로젝트</title>
   <desc id="desc">손그림 별과 밑줄로 꾸민 대표 프로젝트 섹션 제목</desc>
+  <style>.compact{display:none}@media(max-width:300px){.desktop{display:none}.compact{display:inline}}</style>
+  <g class="desktop">
   <rect width="720" height="84" fill="#FFFFFF"/>
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif">
     <path d="M27 16 L33 29 L47 30 L36 39 L39 53 L27 46 L15 53 L18 39 L7 30 L21 29 Z" fill="#FFC94A" stroke="#24292F" stroke-width="2.5" stroke-linejoin="round"/>
@@ -9,4 +11,6 @@
     <text x="61" y="47" font-size="28" font-weight="800" fill="#24292F">대표 프로젝트</text>
     <path d="M63 59 C110 55 161 62 214 57 C242 55 262 59 286 57" fill="none" stroke="#FF6685" stroke-width="3" stroke-linecap="round"/>
   </g>
+</g>
+  <g class="compact"><rect width="720" height="84" fill="#FFFFFF"/><g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif"><text x="12" y="62" font-size="62" font-weight="800" fill="#24292F">대표 프로젝트</text><path d="M14 77 Q190 71 400 77" fill="none" stroke="#FF6685" stroke-width="4" stroke-linecap="round"/></g></g>
 </svg>

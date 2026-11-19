@@ -2,6 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 148" role="img" aria-labelledby="title desc">
   <title id="title">NYPC-NATION 최근 공개 커밋</title>
   <desc id="desc">DOCS, NYPC-NATION, NYPC 공식 영상과 블로그 링크 강조, 5f1a8e4, C++, 어제</desc>
+  <style>.compact{display:none}@media(max-width:230px){.desktop{display:none}.compact{display:inline}}</style>
+  <g class="desktop">
   <path d="M13 7 C76 3 145 10 211 6 C280 2 350 11 407 5 Q416 6 413 17 C416 54 411 94 415 133 Q413 143 403 142 C333 146 267 139 199 143 C130 146 64 140 13 144 Q5 142 8 133 C5 94 10 54 6 17 Q7 9 13 7Z" fill="#FFFFFF" stroke="#24292F" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M13 14 C10 45 14 95 12 134" fill="none" stroke="#FFC94A" stroke-width="3" stroke-linecap="round" opacity=".85"/>
 
@@ -25,4 +27,13 @@
     <path d="M88 126 C164 122 243 129 319 125" fill="none" stroke="#D8DEE4" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 6"/>
     <path d="M340 135 C356 130 369 139 384 133 C394 129 401 131 407 127" fill="none" stroke="#FFC94A" stroke-width="1.8" stroke-linecap="round" opacity=".55"/>
   </g>
+</g>
+  <g class="compact"><path d="M13 7 Q210 2 407 5 L415 133 Q210 147 13 144 L6 17Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2"/>
+  <path d="M13 14 L12 134" fill="none" stroke="#FFC94A" stroke-width="5"/>
+  <g font-family="Pretendard, Noto Sans KR, Segoe UI, sans-serif" fill="#24292F">
+    <text x="28" y="32" font-size="22" font-weight="800" fill="#FFC94A">DOCS</text>
+    <text x="28" y="72" font-size="30" font-weight="780">NYPC 공식 영상과 블로그 </text>
+    <text x="28" y="107" font-size="30" font-weight="780">링크…</text>
+    <text x="28" y="132" font-size="22" font-weight="600" fill="#66707A">NYPC-NATION</text>
+  </g></g>
 </svg>

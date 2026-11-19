@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/cora1022-banner-v7.png" width="100%" alt="cora1022 개발자 프로필 배너" />
+  <picture>
+    <source media="(max-width: 767px)" srcset="./assets/mobile-hidden.svg" />
+    <img src="./assets/cora1022-banner-v7.png" width="100%" alt="cora1022 개발자 프로필 배너" />
+  </picture>
 </p>
 
 <p align="center">

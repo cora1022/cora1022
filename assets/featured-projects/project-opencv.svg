@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 314" role="img" aria-labelledby="title desc">
-  <title id="title">OpenCV 기반 패션 이미지 유사도 검색</title>
-  <desc id="desc">의류 이미지에서 유사한 패션 결과를 찾는 프로젝트. Spring Boot, FastAPI, React 사용.</desc>
+  <title id="title">패션 파인더 (Style Finder)</title>
+  <desc id="desc">사진 속 옷 영역을 선택해 비슷한 상품과 판매처를 찾는 서비스. OpenCV, FashionCLIP, NumPy, Spring Boot, FastAPI, React 사용.</desc>
 
   <path d="M16 9 C117 5 222 11 336 8 C461 5 575 11 703 8 Q712 9 710 22 L713 292 Q711 304 698 302 C570 306 456 300 332 304 C211 307 109 301 18 304 Q8 302 10 289 L8 23 Q9 12 16 9Z" fill="#FFFFFF" stroke="#24292F" stroke-width="2.3"/>
   <path d="M17 22 C13 87 18 166 14 287" fill="none" stroke="#FF6685" stroke-width="3.4" stroke-linecap="round" opacity=".8"/>
@@ -11,35 +11,48 @@
     <path d="M9 9 L17 24 M22 6 L31 27 M37 5 L47 25 M52 5 L61 22" fill="none" stroke="#FFB8C6" stroke-width="2" stroke-linecap="round" opacity=".85"/>
   </g>
 
-  <g transform="translate(35 62)" stroke="#24292F" stroke-linejoin="round">
-    <path d="M8 14 Q8 7 15 7 H102 Q108 7 108 14 V128 H8 Z" fill="#FFFDF8" stroke-width="2.3"/>
-    <path d="M21 24 Q55 20 93 24 L91 112 Q57 117 22 112 Z" fill="#FFFFFF" stroke-width="1.7"/>
-    <path d="M57 37 C53 31 61 26 65 31 C67 35 63 39 59 42" fill="none" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M58 42 L39 53 L46 66 L48 104 Q58 110 70 104 L72 66 L80 53 L62 42 Z" fill="#FF6685" stroke-width="2"/>
-    <path d="M47 65 Q59 71 71 65 M50 79 Q59 84 69 79" fill="none" stroke="#FFB8C6" stroke-width="1.6" stroke-linecap="round"/>
-
-    <path d="M91 78 Q91 72 97 72 H147 Q152 72 152 78 V136 H91 Z" fill="#FFFFFF" stroke-width="2" transform="rotate(7 121 104)"/>
-    <path d="M111 88 C108 83 115 80 118 84 C120 87 117 90 114 92" fill="none" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M113 92 L102 99 L107 107 L108 125 H131 L132 107 L137 99 L117 92 Z" fill="#FFFDF8" stroke-width="1.6"/>
-
-    <g transform="translate(62 88) rotate(-8 44 44)">
-      <circle cx="44" cy="44" r="29" fill="#FFFFFF" stroke-width="3"/>
-      <circle cx="44" cy="44" r="20" fill="none" stroke="#FF6685" stroke-width="3"/>
-      <path d="M64 66 L86 88" fill="none" stroke-width="9" stroke-linecap="round"/>
-      <path d="M66 68 L85 87" fill="none" stroke="#FF6685" stroke-width="5" stroke-linecap="round"/>
+  <g transform="translate(32 61)" stroke="#24292F" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="rotate(-7 74 86)">
+      <path d="M68 25 C61 15 73 7 80 13 C87 21 72 27 73 34" fill="none" stroke-width="2.6"/>
+      <path d="M73 34 L22 58 Q17 62 24 65 L122 65 Q129 62 122 58 L73 34Z" fill="#FFFFFF" stroke-width="2.2"/>
+      <path d="M44 56 L57 50 Q72 61 87 50 L103 57 L126 79 L109 97 L96 85 L99 142 Q74 149 48 142 L50 85 L37 99 L20 81Z" fill="#FF849C" stroke-width="2.4"/>
+      <path d="M57 51 Q72 74 88 51" fill="none" stroke-width="2"/>
+      <path d="M63 55 Q73 67 82 55" fill="none" stroke="#FFE0E7" stroke-width="2.4"/>
+      <path d="M48 133 Q73 139 98 133 M27 76 L43 92 M103 91 L119 74" fill="none" stroke="#FFE0E7" stroke-width="3.1"/>
+      <path d="M57 82 L56 119 M66 86 L65 123 M76 87 L76 124 M86 83 L87 121" fill="none" stroke="#F36F8B" stroke-width="1.5"/>
     </g>
-
-    <path d="M4 155 C28 145 36 166 55 151 C66 142 74 151 83 145" fill="none" stroke="#FF6685" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M1 170 L6 164 M8 174 L15 168 M17 176 L24 171" fill="none" stroke="#24292F" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M127 44 C149 38 168 50 169 75" fill="none" stroke="#FF6685" stroke-width="2.1" stroke-dasharray="4 5"/>
+    <path d="M161 70 L169 80 L175 68" fill="none" stroke="#FF6685" stroke-width="2.1"/>
+    <g transform="translate(107 98) rotate(8 34 42)">
+      <path d="M5 3 Q31 0 61 4 L61 80 Q33 85 3 80 L3 12 Q2 5 5 3Z" fill="#FFFFFF" stroke-width="1.9"/>
+      <path d="M10 12 L54 13 L53 60 L10 59Z" fill="#FFF1F4" stroke="none"/>
+      <path d="M21 28 L27 24 Q32 30 38 24 L45 29 L50 36 L43 43 L39 39 L40 53 L24 53 L25 39 L20 43 L14 37Z" fill="#FF849C" stroke-width="1.4"/>
+      <path d="M14 69 L36 70 M14 74 L29 75" fill="none" stroke="#8C959F" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(128 128) rotate(-8 29 35)">
+      <path d="M4 3 Q29 0 54 3 L54 65 Q29 70 3 65 L3 10 Q2 5 4 3Z" fill="#FFFFFF" stroke-width="1.9"/>
+      <path d="M9 10 L48 11 L48 49 L9 49Z" fill="#FFF8E7" stroke="none"/>
+      <path d="M19 23 L24 20 Q29 25 34 20 L40 24 L45 31 L39 37 L35 33 L35 44 L22 44 L22 33 L18 37 L12 31Z" fill="#FFC94A" stroke-width="1.4"/>
+      <path d="M12 57 L35 57" fill="none" stroke="#8C959F" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(14 148) rotate(-10 26 22)">
+      <path d="M41 39 L57 56" fill="none" stroke-width="8"/>
+      <path d="M42 40 L56 55" fill="none" stroke="#FF6685" stroke-width="4"/>
+      <circle cx="25" cy="23" r="23" fill="#FFFFFF" stroke-width="2.4"/>
+      <circle cx="25" cy="23" r="16" fill="#FFF1F4" stroke="#FF6685" stroke-width="1.8"/>
+      <path d="M17 23 L23 29 L33 17" fill="none" stroke="#FF6685" stroke-width="2.5"/>
+    </g>
+    <path d="M6 35 L10 43 M0 47 L8 49 M21 30 L19 38" fill="none" stroke="#FF6685" stroke-width="2.2"/>
+    <path d="M22 214 C56 208 103 220 144 211" fill="none" stroke="#FF6685" stroke-width="2.5"/>
   </g>
 
   <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, Segoe UI, sans-serif" fill="#24292F">
-    <text x="233" y="74" font-size="23" font-weight="800">OpenCV 기반 패션 이미지 유사도 검색</text>
+    <text x="233" y="74" font-size="23" font-weight="800">패션 파인더 (Style Finder)</text>
     <path d="M236 86 C322 81 402 90 492 84" fill="none" stroke="#FF6685" stroke-width="2.6" stroke-linecap="round"/>
 
-    <text x="235" y="124" font-size="16.5" font-weight="560">OpenCV와 YOLO로 의류 영역을 전처리하고,</text>
-    <text x="235" y="150" font-size="16.5" font-weight="560">OpenCLIP 임베딩과 Qdrant 벡터 검색으로</text>
-    <text x="235" y="176" font-size="16.5" font-weight="560">유사한 패션 이미지를 찾는 프로젝트입니다.</text>
+    <text x="235" y="124" font-size="16.5" font-weight="560">사진 속 옷 영역을 선택하면</text>
+    <text x="235" y="150" font-size="16.5" font-weight="560">FashionCLIP과 NumPy 벡터 검색으로</text>
+    <text x="235" y="176" font-size="16.5" font-weight="560">비슷한 상품과 판매처를 찾아줍니다.</text>
 
     <g transform="translate(252 200)">
       <circle cx="20" cy="20" r="18" fill="#65B842" stroke="#24292F" stroke-width="1.8"/>

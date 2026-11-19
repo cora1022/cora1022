@@ -20,9 +20,11 @@
 
 - Spring Boot와 FastAPI 기반 API 설계
 - JavaScript와 TypeScript, React를 활용한 페이지 구성
-- 알고리즘 자료구조 PS 문제 풀이 [![solved.ac Gold V](https://mazassumnida.wtf/api/mini/generate_badge?boj=cora1022)](https://solved.ac/profile/cora1022)
+- OpenCV와 FashionCLIP을 활용한 이미지 유사도 검색
+- Raspberry Pi와 WebSocket을 연결한 로봇 제어
 - MySQL을 활용한 데이터 모델링
 - Docker를 활용한 배포 흐름
+- 알고리즘과 자료구조 문제 풀이 [![solved.ac 프로필](https://mazassumnida.wtf/api/mini/generate_badge?boj=cora1022)](https://solved.ac/profile/cora1022)
 
 <!-- PROFILE_SHOWCASE_START -->
 
@@ -31,7 +33,7 @@
   <img src="./assets/featured-projects/header.svg" width="53%" align="left" alt="대표 프로젝트">
   <img src="./assets/recent-commits/header.svg" width="41%" align="right" alt="요즘 커밋한거">
   <br clear="all">
-  <a href="https://github.com/cora1022/OpenCV-pj-Fashion-Model"><img src="./assets/featured-projects/project-opencv.svg" width="53%" align="left" alt="OpenCV 기반 패션 이미지 유사도 검색"></a>
+  <a href="https://github.com/cora1022/Style-Finder"><img src="./assets/featured-projects/project-opencv.svg" width="53%" align="left" alt="패션 파인더 (Style Finder): 사진 속 옷과 비슷한 상품을 찾는 이미지 검색 서비스"></a>
 <!-- RECENT_COMMIT_1_START -->
   <a href="https://github.com/cora1022/NYPC-NATION/commit/5f1a8e447bebcbbb011b8fbb0f2f0791294c0482"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></a>
 <!-- RECENT_COMMIT_1_END -->
@@ -39,8 +41,8 @@
   <a href="https://github.com/cora1022/NYPC-NATION/commit/f8b92dea4dbd6f963857d1445833d215359f5105"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></a>
 <!-- RECENT_COMMIT_2_END -->
   <br clear="left">
-  <a href="https://github.com/cora1022/gemini-raspberry-pi-robot"><img src="./assets/featured-projects/project-robot.svg" width="25%" align="left" alt="Gemini Raspberry Pi Robot"></a>
-  <a href="https://github.com/cora1022/Urban-Waste-Statistics-Simulation"><img src="./assets/featured-projects/project-waste.svg" width="25%" align="left" alt="도시 폐기물 통계 시뮬레이션"></a>
+  <a href="https://github.com/cora1022/2026ESWContest_free_ABOUTCREATE"><img src="./assets/featured-projects/project-robot.svg" width="25%" align="left" alt="생각하고 동작하는 라즈베리파이 로봇: 음성 명령과 웹 원격 제어"></a>
+  <a href="https://github.com/cora1022/nutri-kids-project"><img src="./assets/featured-projects/project-nutri.svg" width="25%" align="left" alt="든든: 2026 국가표준식품성분 DB 활용 아이디어 공모전 최우수상 수상작"></a>
 <!-- RECENT_COMMIT_3_START -->
   <a href="https://github.com/cora1022/Style-Finder/commit/3f43739a2ac2449e4acadce91a650c2e7140af49"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></a>
 <!-- RECENT_COMMIT_3_END -->
@@ -50,14 +52,18 @@
 
 <!-- PROFILE_SHOWCASE_END -->
 
+- 패션 파인더 사용해보기: [fashion.cora1022.com](https://fashion.cora1022.com/)
+- 로봇 실물 시연: [YouTube](https://youtu.be/NtMfFOqJAB8)
+- 든든 사용해보기: [nutri.cora1022.com](https://nutri.cora1022.com/)
+
 <div><img src="./assets/section-headers/experience.svg" width="53%" alt="경험과 기록"></div>
 
 개발 과정에서 남긴 생각과 시행착오는 별도 개발기록 페이지에 정리하고 있습니다.
 
 - 알고리즘 문제 풀이를 꾸준히 진행해 과거 백준 **Gold V**를 달성했습니다.
-- 국가표준식품성분 데이터베이스 DB 활용 아이디어 공모전 / **최우수상 수상** [든든 프로젝트](https://github.com/cora1022/nutri-kids-project)
+- 2026 국가표준식품성분 DB 활용 아이디어 공모전 / **최우수상 수상** [든든 프로젝트](https://github.com/cora1022/nutri-kids-project)
 - NYPC Master Track 2026 / **베스트 리플레이 수상** [NYPC 참가 타임라인](https://cora1022.com/blog/posts/nypc-participation-timeline.html)
-- 제24회 임베디드 소프트웨어 공모전 참여 [LLM 기반 피지컬 AI](https://github.com/cora1022/2026ESWContest_free_ABOUTCREATE)
+- 제24회 임베디드SW경진대회 자유공모부문 참여 [생각하고 동작하는 라즈베리파이 로봇](https://github.com/cora1022/2026ESWContest_free_ABOUTCREATE)
 - 제10회 디지털 헬스케어 MEDICAL HACK 2026 참여 [AI 기반 질환 맞춤형 식단 영양분석 서비스](https://cora1022.com/blog/posts/medical-hack-diet-analysis.html)
 - CODEGATE AI START-UP 해커톤 참여
 - 2026 AI 디지털 기반 사회문제 해결 챌린지 참여

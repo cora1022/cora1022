@@ -25,7 +25,6 @@
 - Spring Boot와 FastAPI 기반 API 설계
 - JavaScript와 TypeScript, React를 활용한 페이지 구성
 - MySQL을 활용한 데이터 모델링
-- Docker를 활용한 배포 흐름
 - 알고리즘과 자료구조 문제 풀이 [![solved.ac 프로필](https://mazassumnida.wtf/api/mini/generate_badge?boj=cora1022)](https://solved.ac/profile/cora1022)
 
 <!-- PROFILE_SHOWCASE_START -->

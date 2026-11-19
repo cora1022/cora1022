@@ -20,8 +20,6 @@
 
 - Spring Boot와 FastAPI 기반 API 설계
 - JavaScript와 TypeScript, React를 활용한 페이지 구성
-- OpenCV와 FashionCLIP을 활용한 이미지 유사도 검색
-- Raspberry Pi와 WebSocket을 연결한 로봇 제어
 - MySQL을 활용한 데이터 모델링
 - Docker를 활용한 배포 흐름
 - 알고리즘과 자료구조 문제 풀이 [![solved.ac 프로필](https://mazassumnida.wtf/api/mini/generate_badge?boj=cora1022)](https://solved.ac/profile/cora1022)
@@ -52,13 +50,7 @@
 
 <!-- PROFILE_SHOWCASE_END -->
 
-- 패션 파인더 사용해보기: [fashion.cora1022.com](https://fashion.cora1022.com/)
-- 로봇 실물 시연: [YouTube](https://youtu.be/NtMfFOqJAB8)
-- 든든 사용해보기: [nutri.cora1022.com](https://nutri.cora1022.com/)
-
 <div><img src="./assets/section-headers/experience.svg" width="53%" alt="경험과 기록"></div>
-
-개발 과정에서 남긴 생각과 시행착오는 별도 개발기록 페이지에 정리하고 있습니다.
 
 - 알고리즘 문제 풀이를 꾸준히 진행해 과거 백준 **Gold V**를 달성했습니다.
 - 2026 국가표준식품성분 DB 활용 아이디어 공모전 / **최우수상 수상** [든든 프로젝트](https://github.com/cora1022/nutri-kids-project)

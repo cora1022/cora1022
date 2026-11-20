@@ -36,16 +36,16 @@
   <br clear="all">
   <a href="https://github.com/cora1022/Style-Finder"><img src="./assets/featured-projects/project-opencv.svg" width="53%" align="left" alt="패션 파인더 (Style Finder): 사진 속 옷과 비슷한 상품을 찾는 이미지 검색 서비스"></a>
 <!-- RECENT_COMMIT_1_START -->
-  <a href="https://github.com/cora1022/NYPC-NATION/commit/5f1a8e447bebcbbb011b8fbb0f2f0791294c0482"><picture><source media="(max-width: 1279px)" srcset="./assets/mobile-hidden.svg"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></picture></a>
+  <a href="https://github.com/cora1022/sns-operation/commit/67b206f455681b841bd64877e8eb1277e5f24293"><picture><source media="(max-width: 1279px)" srcset="./assets/mobile-hidden.svg"><img src="./assets/recent-commits/commit-1.svg" width="41%" align="right" alt="최근 공개 커밋 1"></picture></a>
 <!-- RECENT_COMMIT_1_END -->
 <!-- RECENT_COMMIT_2_START -->
-  <a href="https://github.com/cora1022/NYPC-NATION/commit/f8b92dea4dbd6f963857d1445833d215359f5105"><picture><source media="(max-width: 1279px)" srcset="./assets/mobile-hidden.svg"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></picture></a>
+  <a href="https://github.com/cora1022/NYPC-NATION/commit/5f1a8e447bebcbbb011b8fbb0f2f0791294c0482"><picture><source media="(max-width: 1279px)" srcset="./assets/mobile-hidden.svg"><img src="./assets/recent-commits/commit-2.svg" width="41%" align="right" alt="최근 공개 커밋 2"></picture></a>
 <!-- RECENT_COMMIT_2_END -->
   <br clear="left">
   <a href="https://github.com/cora1022/2026ESWContest_free_ABOUTCREATE"><img src="./assets/featured-projects/project-robot.svg" width="25%" align="left" alt="생각하고 동작하는 라즈베리파이 로봇: 음성 명령과 웹 원격 제어"></a>
   <a href="https://github.com/cora1022/nutri-kids-project"><img src="./assets/featured-projects/project-nutri.svg" width="25%" align="left" alt="든든: 2026 국가표준식품성분 DB 활용 아이디어 공모전 최우수상 수상작"></a>
 <!-- RECENT_COMMIT_3_START -->
-  <a href="https://github.com/cora1022/Style-Finder/commit/3f43739a2ac2449e4acadce91a650c2e7140af49"><picture><source media="(max-width: 1279px)" srcset="./assets/mobile-hidden.svg"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></picture></a>
+  <a href="https://github.com/cora1022/NYPC-NATION/commit/f8b92dea4dbd6f963857d1445833d215359f5105"><picture><source media="(max-width: 1279px)" srcset="./assets/mobile-hidden.svg"><img src="./assets/recent-commits/commit-3.svg" width="41%" align="right" alt="최근 공개 커밋 3"></picture></a>
 <!-- RECENT_COMMIT_3_END -->
   <br clear="all">
 </div>
